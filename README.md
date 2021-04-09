@@ -33,6 +33,7 @@ python dataset-tools.py --input_folder path/to/input/ --output_folder path/to/ou
 * `--width`: width of crop in pixels; use with `--process_type crop` or `--process_type resize` (when used with `resize` it will distort the aspect ratio)
 * `--shift_y`: y (Top to bottom) amount to shift in pixels; negative values will move it up, positive will move it down; use with `--process_type crop`
 * `--shift_x`: x (Left to right) amount to shift in pixels; negative values will move it left, positive will move it right; use with `--process_type crop`
+* `--numbered`: give number all these images in a sequence from 0 
 * `--file_extension`: file format to output *Options*: `jpg`,`png` *Default*: `png`
 
 ## dedupe.py
